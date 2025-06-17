@@ -4,6 +4,12 @@
 
 A Node.js service for tracking, managing, and analyzing job execution with built-in cost monitoring and performance analytics.
 
+## Job Metrics analysed
+1 - Hour of the day failures - counting how many failures we have for a specific hour 
+(can be extended to lower resolution - minutes and so, or to higher resolution - day of the week / month / year)
+2 - Average job execution cost - simulated calculation of the job cost - duration * average cpu usage + memory usage (1GB free, every 256 MB above payed)
+3 - High memory usage arguments - find repetitive arguments that cause high memory usage
+
 ## Features
 
 - **Job Management**: Start, monitor, and track job execution
