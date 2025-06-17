@@ -1,5 +1,6 @@
-# Note - Brainstormed and implemented using Cursor and Claude-4-Sonnet
 # Job Tracker Service
+
+### Note - Brainstormed and implemented using Cursor and Claude-4-Sonnet
 
 A Node.js service for tracking, managing, and analyzing job execution with built-in cost monitoring and performance analytics.
 
